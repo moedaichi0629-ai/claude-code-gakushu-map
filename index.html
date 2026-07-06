@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Claude Code 学習マップ</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1>Claude Code 学習マップ</h1>
+      <p class="subtitle">初心者のための Claude Code 機能ガイド。カードをクリックすると詳しい説明が開きます。</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="toolbar">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="機能名やキーワードで検索（例: commit, hooks, ショートカット）" />
+      </div>
+
+      <div class="filter-box">
+        <span class="filter-label">カテゴリで絞り込み：</span>
+        <div class="filter-buttons" id="filterButtons"></div>
+      </div>
+    </section>
+
+    <p class="result-count" id="resultCount"></p>
+
+    <section id="cardsContainer" class="cards-grid"></section>
+
+    <p class="no-result" id="noResult" hidden>該当する機能が見つかりませんでした。検索やカテゴリの条件を変えてみてください。</p>
+
+    <section class="roadmap-section">
+      <h2>🗺️ まず覚えるべき順番</h2>
+      <p class="roadmap-desc">Claude Codeが初めての人は、この順番で触っていくのがおすすめです。番号をクリックすると該当機能の説明が開きます。</p>
+      <ol class="roadmap-list" id="roadmapList"></ol>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Claude Code 学習マップ &mdash; 初心者向け学習用サイト</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
