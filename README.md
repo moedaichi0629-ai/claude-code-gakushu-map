@@ -4,7 +4,7 @@ Claude Codeの機能・使用場面・コマンド例を、検索できるカー
 
 > 学習資料・Web制作の学習作品として掲載しています。
 
-[ポートフォリオ](https://moedaichi0629-ai.github.io/landing-page/)
+[ポートフォリオ](https://moedaichi0629-ai.github.io/)
 
 ## 主な機能
 
